@@ -64,5 +64,9 @@ namespace RoomBookingApp.Persistence.Tests
             Assert.Equal(roomBooking.Date, booking.Date);
             Assert.Equal(roomBooking.RoomId, booking.RoomId);
         }
+
+        public Room Failed_Test() 
+        {
+        }
     }
 }
